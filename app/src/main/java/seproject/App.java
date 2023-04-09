@@ -10,6 +10,6 @@ public class App {
         // create ConfigService(ConfigStore)
         
         // create Controller with ConfigService
-        System.out.println("restaurant project");
+        System.out.println("Restaurant project");
     }
 }
