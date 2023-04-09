@@ -6,3 +6,5 @@ build
 
 # Ignore VSCode project-specific
 .vscode
+
+*.class
