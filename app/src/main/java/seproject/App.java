@@ -4,11 +4,11 @@
 package seproject;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        // create [interface] ConfigStore = JsonConfigStore() [implements ConfigStore]
+        // create ConfigService(ConfigStore)
+        
+        // create Controller with ConfigService
     }
 }
