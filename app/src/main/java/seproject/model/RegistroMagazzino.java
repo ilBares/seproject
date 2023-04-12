@@ -1,25 +1,25 @@
 package seproject.model;
 
 public class RegistroMagazzino {
-  private String merce;
-  private double quantita;
-  private String unitaMisura;
+    private String merce;
+    private double quantita;
+    private String unitaMisura;
 
-  public RegistroMagazzino(String merce, double quantita, String unitaMisura) {
-    this.merce = merce;
-    this.quantita = quantita;
-    this.unitaMisura = unitaMisura;
-  }
+    public RegistroMagazzino(String merce, double quantita, String unitaMisura) {
+        this.merce = merce;
+        this.quantita = quantita;
+        this.unitaMisura = unitaMisura;
+    }
 
-  public String getMerce() {
-    return this.merce;
-  }
+    public String getMerce() {
+        return this.merce;
+    }
 
-  public double getQuantita() {
-    return this.quantita;
-  }
+    public double getQuantita() {
+        return this.quantita;
+    }
 
-  public String getUnitaMisura() {
-    return this.unitaMisura;
-  }
+    public String getUnitaMisura() {
+        return this.unitaMisura;
+    }
 }
