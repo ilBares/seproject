@@ -1,5 +1,7 @@
 package seproject.repository.interfaces;
 
-public interface GeneriAlimentariRepository {
-  
+import java.util.List;
+
+public interface GeneriAlimentariRepository<T> {
+    List<T> getGeneriAlimentari();
 }

@@ -1,5 +1,8 @@
 package seproject.repository.interfaces;
 
-public interface BevandeRepository {
-  
+import java.util.List;
+
+public interface BevandeRepository<T> {
+
+    List<T> getBevande(); 
 }

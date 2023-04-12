@@ -1,5 +1,7 @@
 package seproject.repository.interfaces;
 
-public interface PiattiRepository {
-  
+import java.util.List;
+
+public interface PiattiRepository<T> {
+    List<T> getPiatti();
 }

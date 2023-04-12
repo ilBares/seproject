@@ -1,5 +1,7 @@
 package seproject.repository.interfaces;
 
-public interface MenuTematiciRepository {
-  
+import java.util.List;
+
+public interface MenuTematiciRepository<T> {
+    List<T> getMenuTematici();
 }
